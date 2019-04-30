@@ -1,0 +1,50 @@
+/*
+* Name
+* Due Date
+* Elephants */
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body { background-color: lightgray;
+       font-family: Arial, Helvetica, sans-serif;
+       width: 85%;
+       margin: auto; }
+
+h1 { font-size: 300%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline overline;}
+
+header {
+    background-color: blue;}
+
+main {
+    background-color: lightblue; }
+
+footer {
+    background-color: skyblue; }
+
+#elephants { float: right; }
+
+a:link { 
+    color: navy;
+    text-decoration: none;}
+
+a:hover, a:focus {
+    color: black;
+    font-size: 200%;}
+
+a:active {
+    color: red;}
+
+a:visited {
+    color: white;
+    text-decoration: underline;}
+
+
